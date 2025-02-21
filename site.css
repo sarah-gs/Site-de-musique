@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Vinyl&display=swap');
+
+
+.propriete-intellectuelle {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 20px;
+}
+
+.propriete-intellectuelle a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.propriete-intellectuelle a:hover {
+    text-decoration: underline;
+}
+
+.audio-player {
+    display: none; 
+}
+
+
+:root {
+    --background-color: #f5fff5; 
+    --primary-color: #2a9d8f;  
+    --secondary-color: #264653; 
+    --accent-color: #e76f51;   
+    --text-color: #333;       
+    --white: #fff;
+}
+
+
+body {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    background-image: url('image/fond.jpg');
+    color: var(--text-color);
+}
+
+h1, h2 {
+    text-align: center;
+    color: var(--background-color);
+}
+
+h3 {
+    text-align: center;
+    color: var(--text-color);
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+header, footer {
+    background-color: var(--accent-color);
+    color: var(--white);
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+.liste-musiques {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.music-item {
+    background-color: var(--white);
+   
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.music-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.album-cover {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.music-info {
+    padding: 10px 0;
+}
+
+.play-pause {
+    background-color: var(--accent-color);
+    color: var(--white);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 0;
+    transition: background-color 0.3s ease;
+}
+
+.play-pause:hover {
+    background-color: darken(var(--accent-color), 10%);
+}
+
+
+
+.logo {
+    width: 24px; 
+    height: auto;
+    margin-right: 10px;
+}
+
+
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: var(--white);
+    border: 1px solid var(--accent-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid var(--accent-color);
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+form button {
+    background-color: var(--accent-color);
+    color: var(--white);
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: var(--secondary-color);
+}
+
+
+.credits {
+    
+color: var(--white);
+margin-top: 20px;
+text-align: center;
+font-size: 10px;
+font-family: Arial, sans-serif; 
+}
+
